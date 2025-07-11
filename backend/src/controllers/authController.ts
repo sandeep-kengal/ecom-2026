@@ -7,6 +7,7 @@ import { createError } from '../middleware/errorHandler';
 export interface User {
   id?: number;
   email: string;
+  password: string;
   password_hash?: string;
   first_name: string;
   last_name: string;
